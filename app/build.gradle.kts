@@ -69,4 +69,10 @@ dependencies {
     implementation(libs.hilt)
     implementation(libs.hilt.navigation.compose)
     kapt(libs.hilt.compiler)
+
+    //coil
+    implementation(libs.coil.compose)
+    implementation(libs.coil.network)
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.engine.android)
 }
