@@ -75,4 +75,8 @@ dependencies {
     implementation(libs.coil.network)
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.engine.android)
+
+    //
+    implementation(libs.paging)
+    implementation(libs.paging.compose)
 }
